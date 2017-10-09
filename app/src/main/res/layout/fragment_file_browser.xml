@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="?attr/actionBarSize"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.github.tduva.fredlist.gui.openfile.FileBrowser$PlaceholderFragment">
+
+    <Button
+        android:id="@+id/file_save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_save_here"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/file_list_folder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Example"
+        android:paddingBottom="10dp" />
+
+    <ListView
+        android:id="@+id/file_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/file_save_button"
+        android:layout_below="@id/file_list_folder"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/file_list_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+
+
+</RelativeLayout>

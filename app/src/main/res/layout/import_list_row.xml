@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text View"
+        android:textColor="#000000"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="1dp" />
+
+    <TextView
+        android:id="@+id/item_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_name"
+        android:layout_alignStart="@id/item_name"
+        android:layout_alignLeft="@id/item_name"
+        android:text="Description"
+        android:paddingLeft="10sp" />
+
+    <TextView
+        android:id="@+id/item_lists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_notes"
+        android:paddingLeft="10sp"
+        android:paddingBottom="2dp"
+        android:text="Example Lists" />
+
+    <TextView
+        android:id="@+id/item_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_notes"
+        android:gravity="right"
+        android:layout_alignEnd="@id/item_name"
+        android:layout_alignRight="@id/item_name"
+        android:layout_toRightOf="@id/item_lists"
+        android:paddingRight="10sp"
+        android:text="Example Lists" />
+
+
+</RelativeLayout>

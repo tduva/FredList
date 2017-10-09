@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">FredList</string>
+    <string name="exit_toast">Double-tap back key to exit</string>
+    <string name="title_about">About FredList %1$s</string>
+
+    <!-- General purpose -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_no">No</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_about">About</string>
+
+    <!-- Lists/Categories -->
+    <string name="all_lists"># All #</string>
+    <string name="all_categories"># All #</string>
+    <string name="action_add_list">Add list</string>
+    <string name="title_add_list">Add list</string>
+    <string name="title_edit_list">Edit list</string>
+    <string name="title_add_category">Add category</string>
+    <string name="title_edit_category">Edit category</string>
+    <string name="hint_list_name">List name</string>
+    <string name="hint_category_name">Category name</string>
+    <string name="hint_short_list_name">Short list name</string>
+    <string name="hint_short_category_name">Short category name</string>
+    <string name="confirm_title_delete_list">Delete list</string>
+    <string name="confirm_delete_list">Delete list \"%1$s\" and %2$d entries?</string>
+    <string name="button_edit_list_save">Save</string>
+    <string name="confirm_title_delete_category">Delete category</string>
+    <string name="confirm_delete_category">Delete category \"%1$s\" and %2$d entries?</string>
+
+    <!-- Entries -->
+    <string name="action_setHighPriority">Set High Priority</string>
+    <string name="action_setNormalPriority">Set Normal Priority</string>
+    <string name="action_setLowPriority">Set Low Priority</string>
+    <string name="action_add_category">Add category</string>
+    <string name="action_goto_template">Goto template</string>
+    <string name="action_add_entry">Add entry</string>
+    <string name="title_add_entry">Add entry</string>
+    <string name="action_reset_all_entries">Reset all entries</string>
+    <string name="action_set_all_undone">Set all undone</string>
+    <string name="action_reset_done">Reset done</string>
+    <string name="info_empty_todo">Nothing to do right now, swipe to the right to add entries</string>
+    <string name="info_empty_template">Open menu to add entry</string>
+
+    <!-- Edit Entry -->
+    <string name="title_edit_entry">Edit entry</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_notes">Notes</string>
+    <string name="label_category">Category</string>
+    <string name="label_lists">Lists</string>
+    <string name="error_no_name">Enter a name</string>
+    <string name="error_no_category">No category selected</string>
+    <string name="error_no_list">No list selected</string>
+    <string name="action_ok_lists">OK</string>
+    <string name="info_no_list_selected"><![CDATA[<No list selected>]]></string>
+    <string name="confirm_title_edit_similar">Update similar entry</string>
+    <string name="confirm_edit_similar">Update name/notes for this similar entry?\n\n%1$s\n(%2$s)\n%3$s / %4$s</string>
+
+    <!-- Import/Export -->
+    <string name="action_import_textfile">Import text file</string>
+    <string name="action_export">Export data</string>
+    <string name="action_save_backup">Create manual backup</string>
+    <string name="action_load_backup">Load backup</string>
+    <string name="title_manual_backup">Create manual backup</string>
+    <string name="confirm_import_list">Import and overwrite current data?</string>
+    <string name="confirm_title_import_list">Confirm data import</string>
+    <string name="confirm_yes_import_list">Yes</string>
+    <string name="confirm_no_import_list">Cancel</string>
+    <string name="title_import">Import</string>
+    <string name="title_load_backup">Load Backup</string>
+    <string name="import_info_replacement">Found %1$d entries, with %2$d lists (%3$s) and %4$d categories (%5$s)</string>
+    <string name="action_import_list">Load</string>
+    <string name="error_loading_file">Error loading file</string>
+    <string name="info_file_saved">File saved</string>
+    <string name="info_error_saving_file">An error occurred saving the file</string>
+
+    <!-- File browsing/saving -->
+    <string name="title_activity_open_file">Open file</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="external_storage">External Storage</string>
+    <string name="error_folder_empty">Folder empty</string>
+    <string name="error_opening_folder">Error opening folder</string>
+    <string name="error_storage_not_available">Storage not available</string>
+    <string name="save_file">Save file..</string>
+    <string name="save_file_note">Enter filename to save file</string>
+    <string name="confirm_title_overwrite_file">Overwrite file</string>
+    <string name="confirm_overwrite_file">This file already exists, overwrite?</string>
+    <string name="confirm_button_overwrite_file">Overwrite</string>
+    <string name="action_delete_file">Delete file</string>
+    <string name="confirm_title_delete_file">Delete file</string>
+    <string name="confirm_delete_file">Delete file "%1$s"?</string>
+    <string name="button_save_here">Save in this folder..</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="edit_list_name">List name</string>
+    <string name="error_empty_name">Enter a name</string>
+
+
+</resources>

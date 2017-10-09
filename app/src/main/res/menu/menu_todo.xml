@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Search, always has to show -->
+    <item android:id="@+id/action_search"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"/>
+
+    <!-- Fragment button, should always show -->
+    <item android:id="@+id/action_goto_template"
+        android:title="@string/action_goto_template"
+        android:icon="@drawable/ic_check_box_white_24dp"
+        app:showAsAction="always"/>
+
+    <!-- Other actions, always hidden -->
+    <item android:id="@+id/action_reset_all"
+        android:title="@string/action_reset_all_entries"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_reset_done"
+        android:title="@string/action_reset_done"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_set_all_undone"
+        android:title="@string/action_set_all_undone"
+        app:showAsAction="never" />
+
+</menu>

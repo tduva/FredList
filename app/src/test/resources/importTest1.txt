@@ -1,0 +1,23 @@
+[FredList]
+		Unsorted Entry
+List 1
+ 	Category 1
+		Entry 1
+		 Notes to Entry 1
+  	 	Entry 2 (with some spaces)
+		 Notes to Entry 2
+		Entry 3
+	Category 2
+		Entry 4
+		 [List 3, List X]
+		Entry 5
+List 2
+List 3
+	Category 2
+		Entry 1
+		Entry 6
+		Entry 7
+		 Notes for Entry 7
+		 [List X]
+	Category 2
+	Category 3

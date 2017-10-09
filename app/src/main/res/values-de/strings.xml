@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_add_list">Liste hinzufügen</string>
+    <string name="action_save">Speichern</string>
+    <string name="action_export">Daten exportieren</string>
+    <string name="edit_list_name">Name der Liste</string>
+    <string name="button_edit_list_save">Speichern</string>
+    <string name="action_rename">Umbenennen</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_edit">Bearbeiten</string>
+    <string name="action_setHighPriority">Hohe Priorität</string>
+    <string name="action_setNormalPriority">Normale Priorität</string>
+    <string name="action_setLowPriority">Niedrige Priorität</string>
+    <string name="action_add_category">Kategorie hinzufügen</string>
+    <string name="action_goto_template">Zu Vorlage wechseln</string>
+    <string name="action_add_entry">Eintrag hinzufügen</string>
+
+    <string name="all_lists"># Alle #</string>
+    <string name="all_categories"># Alle #</string>
+
+    <!-- Edit list/category -->
+    <string name="title_add_list">Liste hinzufügen</string>
+    <string name="title_edit_list">Liste umbenennen</string>
+    <string name="title_add_category">Kategorie hinzufügen</string>
+    <string name="title_edit_category">Kategorie umbennennen</string>
+    <string name="hint_list_name">Name der Liste</string>
+    <string name="hint_category_name">Name der Kategorie</string>
+
+    <!-- Edit Entry -->
+    <string name="title_edit_entry">Eintrag bearbeiten</string>
+    <string name="title_add_entry">Eintrag hinzufügen</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_notes">Notizen</string>
+    <string name="label_category">Kategorie</string>
+    <string name="label_lists">Listen</string>
+    <string name="error_no_name">Kein Name eingegeben</string>
+    <string name="error_no_category">Keine Kategorie ausgewählt</string>
+    <string name="error_no_list">Keine Liste ausgewählt</string>
+    <string name="action_ok_lists">Ok</string>
+
+    <!-- Open file -->
+    <string name="title_activity_open_file">Datei öffnen</string>
+    <string name="internal_storage">Interner Speicher</string>
+    <string name="external_storage">Externer Speicher</string>
+    <string name="error_folder_empty">Ordner leer</string>
+    <string name="error_opening_folder">Fehler beim Öffnen des Ordners</string>
+    <string name="error_storage_not_available">Speicher nicht verfügbar</string>
+    <string name="error_loading_file">Fehler beim Laden der Datei</string>
+    <string name="action_import_list">Speichern</string>
+    <string name="confirm_title_delete_list">Liste löschen</string>
+    <string name="confirm_delete_category">Kategorie \"%1$s\" und %2$d Einträge löschen?</string>
+    <string name="confirm_title_import_list">Daten-Import bestätigen</string>
+    <string name="confirm_no_import_list">Abbrechen</string>
+    <string name="info_empty_todo">Nichts zu tun, nach rechts wischen um Einträge hinzuzufügen</string>
+    <string name="info_empty_template">Menu öffnen um Einträge hinzuzufügen</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="confirm_delete_list">Liste \"%1$s\" und %2$d Einträge löschen?</string>
+    <string name="confirm_import_list">Importieren und aktuelle Daten ersetzen?</string>
+    <string name="confirm_yes_import_list">OK</string>
+    <string name="confirm_title_delete_category">Kategorie löschen</string>
+    <string name="import_info_replacement">%1$d Einträge gefunden, %2$d Listen (%3$s) und %4$d Kategorien (%5$s)</string>
+    <string name="exit_toast">Zum Beenden doppelt auf Zurück-Taste tippen</string>
+
+    <!-- Entry state changing -->
+    <string name="action_reset_all_entries">Alle Einträge zurücksetzen</string>
+    <string name="action_set_all_undone">Alle zu unerledigt</string>
+    <string name="action_reset_done">Erledigte zurücksetzen</string>
+    <string name="title_import">Importieren</string>
+    <string name="title_load_backup">Backup Laden</string>
+    <string name="title_manual_backup">Manuelles Backup</string>
+    <string name="action_save_backup">Manuelles Backup</string>
+    <string name="action_load_backup">Backup laden</string>
+    <string name="action_delete_file">Datei löschen</string>
+    <string name="button_save_here">In diesem Ordner speichern..</string>
+    <string name="confirm_button_overwrite_file">Überschreiben</string>
+    <string name="save_file">Datei speichern..</string>
+    <string name="save_file_note">Dateinamen eingeben</string>
+    <string name="confirm_title_delete_file">Datei löschen</string>
+    <string name="confirm_title_overwrite_file">Datei überschreiben</string>
+    <string name="confirm_delete_file">Datei \"%1$s\" löschen?</string>
+    <string name="action_import_textfile">Textdatei importieren</string>
+    <string name="confirm_overwrite_file">Vorhandene Datei überschreiben?</string>
+    <string name="info_no_list_selected"><![CDATA[<Keine Liste ausgewählt>]]></string>
+    <string name="confirm_edit_similar">Name/Notizen für folgendenen ähnlichen Eintrag anpassen?\n\n%1$s\n(%2$s)\n%3$s / %4$s</string>
+    <string name="confirm_title_edit_similar">Ähnlichen Eintrag anpassen</string>
+    <string name="action_yes">Ja</string>
+    <string name="action_no">Nein</string>
+    <string name="info_error_saving_file">Speichern fehlgeschlagen</string>
+    <string name="info_file_saved">Datei gespeichert</string>
+    <string name="error_empty_name">Name eingeben</string>
+    <string name="hint_short_category_name">Kurzer Name der Kategorie</string>
+    <string name="hint_short_list_name">Kurzer Name der Liste</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_about">Über FredList %1$s</string>
+</resources>
