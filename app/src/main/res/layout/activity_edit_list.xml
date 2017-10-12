@@ -32,4 +32,12 @@
         <requestFocus />
     </EditText>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editListNameShort"
+        android:layout_alignRight="@id/editListNameShort"
+        android:layout_marginLeft="20dp"
+        android:text="@string/edit_list_short_name_hint" />
+
 </RelativeLayout>

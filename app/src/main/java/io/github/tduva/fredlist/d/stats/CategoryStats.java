@@ -11,7 +11,7 @@ public class CategoryStats implements Comparable<CategoryStats>, StatsItem {
     private final int id;
     private final String name;
 
-    private int doneCount;
+    private int todoCount;
     private int activeCount;
     private int totalCount;
 
@@ -30,7 +30,7 @@ public class CategoryStats implements Comparable<CategoryStats>, StatsItem {
 
     @Override
     public String getStats() {
-        return String.format("%s/%s/%s", activeCount-doneCount, activeCount, totalCount);
+        return String.format("%s/%s/%s", todoCount, activeCount, totalCount);
     }
 
     public int getTotalCount() {
@@ -40,9 +40,9 @@ public class CategoryStats implements Comparable<CategoryStats>, StatsItem {
     protected void add(boolean active, boolean done) {
         if (active) {
             activeCount++;
-        }
-        if (done) {
-            doneCount++;
+            if (!done) {
+                todoCount++;
+            }
         }
         totalCount++;
     }
@@ -57,7 +57,7 @@ public class CategoryStats implements Comparable<CategoryStats>, StatsItem {
 
     @Override
     public String toString() {
-        return String.format("%s (%s/%s/%s)", name, activeCount-doneCount, activeCount, totalCount);
+        return String.format("%s (%s/%s/%s)", name, todoCount, activeCount, totalCount);
     }
 
 }

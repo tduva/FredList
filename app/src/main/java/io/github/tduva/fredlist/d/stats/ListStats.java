@@ -3,7 +3,6 @@ package io.github.tduva.fredlist.d.stats;
 import android.support.annotation.NonNull;
 
 import java.util.Collection;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -18,7 +17,7 @@ public class ListStats implements Comparable<ListStats>, StatsItem {
 
     private final Map<Integer, CategoryStats> categories = new TreeMap<>();
 
-    private int doneCount;
+    private int todoCount;
     private int activeCount;
     private int totalCount;
 
@@ -33,7 +32,7 @@ public class ListStats implements Comparable<ListStats>, StatsItem {
 
     @Override
     public String getStats() {
-        return String.format("%s/%s/%s", activeCount-doneCount, activeCount, totalCount);
+        return String.format("%s/%s/%s", todoCount, activeCount, totalCount);
     }
 
     public int getId() {
@@ -49,9 +48,9 @@ public class ListStats implements Comparable<ListStats>, StatsItem {
         categories.get(-1).add(active, done);
         if (active) {
             activeCount++;
-        }
-        if (done) {
-            doneCount++;
+            if (!done) {
+                todoCount++;
+            }
         }
         totalCount++;
     }
@@ -66,7 +65,7 @@ public class ListStats implements Comparable<ListStats>, StatsItem {
 
     @Override
     public String toString() {
-        return String.format("%s (%s/%s/%s)", name, activeCount-doneCount, activeCount, totalCount);
+        return String.format("%s (%s/%s/%s)", name, todoCount, activeCount, totalCount);
     }
 
     public int getTotalCount() {

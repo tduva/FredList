@@ -51,8 +51,9 @@
     <string name="confirm_delete_category">Kategorie \"%1$s\" und %2$d Einträge löschen?</string>
     <string name="confirm_title_import_list">Daten-Import bestätigen</string>
     <string name="confirm_no_import_list">Abbrechen</string>
-    <string name="info_empty_todo">Nichts zu tun, nach rechts wischen um Einträge hinzuzufügen</string>
-    <string name="info_empty_template">Menu öffnen um Einträge hinzuzufügen</string>
+    <string name="info_empty_todo">Nichts zu tun.\n\nAuf Häkchen-Symbol tippen oder zur Seite
+        wischen um auf Vorlage zu wechseln und Einträge hinzuzufügen.</string>
+    <string name="info_empty_template">Menu öffnen um Einträge hinzuzufügen.</string>
     <string name="action_cancel">Abbrechen</string>
     <string name="confirm_delete_list">Liste \"%1$s\" und %2$d Einträge löschen?</string>
     <string name="confirm_import_list">Importieren und aktuelle Daten ersetzen?</string>
@@ -88,8 +89,10 @@
     <string name="info_error_saving_file">Speichern fehlgeschlagen</string>
     <string name="info_file_saved">Datei gespeichert</string>
     <string name="error_empty_name">Name eingeben</string>
-    <string name="hint_short_category_name">Kurzer Name der Kategorie</string>
-    <string name="hint_short_list_name">Kurzer Name der Liste</string>
+    <string name="hint_short_category_name">Kurzname der Kategorie</string>
+    <string name="hint_short_list_name">Kurzname der Liste</string>
     <string name="action_settings">Einstellungen</string>
     <string name="title_about">Über FredList %1$s</string>
+    <string name="edit_list_short_name_hint">Kurzname wird für Todo/Vorlagen-Seitentitel benutzt</string>
+    <string name="action_about">Über</string>
 </resources>

@@ -42,8 +42,9 @@
     <string name="action_reset_all_entries">Reset all entries</string>
     <string name="action_set_all_undone">Set all undone</string>
     <string name="action_reset_done">Reset done</string>
-    <string name="info_empty_todo">Nothing to do right now, swipe to the right to add entries</string>
-    <string name="info_empty_template">Open menu to add entry</string>
+    <string name="info_empty_todo">Nothing to do right now.\n\nTap checkmark icon or swipe to the
+    side to switch to template to add entries.</string>
+    <string name="info_empty_template">Open menu to add entries.</string>
 
     <!-- Edit Entry -->
     <string name="title_edit_entry">Edit entry</string>
@@ -97,6 +98,7 @@
     <string name="action_settings">Settings</string>
     <string name="edit_list_name">List name</string>
     <string name="error_empty_name">Enter a name</string>
+    <string name="edit_list_short_name_hint">Short name is used for todo/template pages title</string>
 
 
 </resources>
